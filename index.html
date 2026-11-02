@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The private Cinderfang Studio employee development portal.">
+  <meta name="theme-color" content="#070611">
+  <title>Cinderfang Studio // Development Portal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="shell">
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Cinderfang Studio development portal home">
+        <span class="brand-mark" aria-hidden="true">CF<span>°</span></span>
+        <span class="brand-copy"><strong>CINDERFANG</strong><small>STUDIO / DEVELOPMENT PORTAL</small></span>
+      </a>
+      <nav class="site-nav" aria-label="Portal landing page">
+        <a href="#workspace">Workspace</a>
+        <a href="#access">Access</a>
+        <a href="#support">Support</a>
+      </nav>
+      <a class="button button--small button--ghost" data-backend-link="/studio/login" href="#access">Employee sign in</a>
+    </header>
+
+    <main id="top">
+      <section class="hero section-grid" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">PRIVATE EMPLOYEE SYSTEM / CINDERFANG STUDIO</p>
+          <h1 id="hero-title">Make the next<br><em>build matter.</em></h1>
+          <p class="lede">The internal development portal for Cinderfang Studio staff. Keep projects moving, make production visible, and give every contributor a clear next step.</p>
+          <div class="hero-actions" id="access">
+            <a class="button button--primary" data-backend-link="/studio/login" href="#access">Employee sign in <span aria-hidden="true">↗</span></a>
+            <a class="button button--secondary" data-backend-link="/Account/Invite" href="#access">Open invitation registration</a>
+          </div>
+          <p class="access-note" data-backend-status role="status">Portal access is being configured for this deployment.</p>
+        </div>
+        <div class="hero-signal" aria-label="Cinderfang Studio production link status">
+          <div class="signal-ring signal-ring--outer"></div>
+          <div class="signal-ring signal-ring--inner"></div>
+          <span class="signal-core">CF</span>
+          <span class="signal-label">STUDIO<br>LINK</span>
+          <span class="signal-code">INTERNAL / 01</span>
+        </div>
+      </section>
+
+      <section class="status-strip section-grid" aria-label="Portal access policy">
+        <div class="status-item"><span class="status-dot"></span><span><strong>Private workspace</strong><small>For invited Cinderfang members</small></span></div>
+        <div class="status-item"><span class="status-icon">⌁</span><span><strong>Existing Identity</strong><small>Protected by the Studio backend</small></span></div>
+        <div class="status-item"><span class="status-icon">✦</span><span><strong>Invitation only</strong><small>No public self-registration</small></span></div>
+      </section>
+
+      <section class="portal-intro section-grid" id="workspace" aria-labelledby="workspace-title">
+        <div>
+          <p class="eyebrow">THE EMPLOYEE WORKSPACE</p>
+          <h2 id="workspace-title">One production line.<br><em>Every discipline connected.</em></h2>
+        </div>
+        <div class="intro-copy">
+          <p>Once authenticated, employees enter the company workspace assigned to their membership. Cinderfang HQ and Cinderfang Studio use the same Identity accounts, permissions, memberships, projects, and internal messages.</p>
+          <p class="muted">Your access is determined by the invitation and active company membership. Administration remains restricted to authorized company leaders.</p>
+        </div>
+      </section>
+
+      <section class="feature-grid section-grid" aria-label="Employee portal capabilities">
+        <article class="feature-card feature-card--wide"><span class="feature-number">01</span><div><p class="eyebrow">ORIENTATION</p><h3>Studio dashboard</h3><p>See the workspace signal, current projects, milestones, notifications, and the work that needs attention.</p></div><span class="feature-arrow" aria-hidden="true">↗</span></article>
+        <article class="feature-card"><span class="feature-number">02</span><p class="eyebrow">DELIVERY</p><h3>Tasks &amp; production boards</h3><p>Track assignments, stages, reviews, QA, builds, and releases without losing the thread.</p></article>
+        <article class="feature-card"><span class="feature-number">03</span><p class="eyebrow">KNOWLEDGE</p><h3>Projects &amp; documents</h3><p>Keep decisions, references, assets, project context, and working documents close to the team.</p></article>
+        <article class="feature-card"><span class="feature-number">04</span><p class="eyebrow">CONNECTION</p><h3>Cinderfang Mail</h3><p>Exchange private internal messages with active members of your authorized company workspace.</p></article>
+        <article class="feature-card"><span class="feature-number">05</span><p class="eyebrow">PEOPLE</p><h3>Team &amp; profile</h3><p>Find the people and departments around a project, then keep your employee profile current.</p></article>
+      </section>
+
+      <section class="how-access section-grid" aria-labelledby="how-title">
+        <div class="how-card">
+          <p class="eyebrow">SECURE ENTRY</p>
+          <h2 id="how-title">Your invitation is<br><em>your starting point.</em></h2>
+          <ol class="steps">
+            <li><span>01</span><div><strong>Receive a company invitation</strong><small>A CompanyAdmin sends a time-limited link to your personal email.</small></div></li>
+            <li><span>02</span><div><strong>Create your Cinderfang Identity</strong><small>Choose your profile details and password through the protected backend.</small></div></li>
+            <li><span>03</span><div><strong>Enter your assigned workspace</strong><small>Sign in to access only the active company memberships and tools assigned to you.</small></div></li>
+          </ol>
+          <a class="text-link" data-backend-link="/Account/Invite" href="#access">I have an invitation <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="policy-card">
+          <span class="policy-mark" aria-hidden="true">✦</span>
+          <p class="eyebrow">ACCESS POLICY</p>
+          <h3>No public self-registration.</h3>
+          <p>This landing page never collects credentials and does not create accounts. Employee registration is completed only through a valid, single-use invitation handled by the existing Cinderfang backend.</p>
+          <p class="policy-contact">Need help? <a href="mailto:cinderfangstudio@outlook.com">cinderfangstudio@outlook.com</a></p>
+        </div>
+      </section>
+
+      <section class="support section-grid" id="support" aria-labelledby="support-title">
+        <div><p class="eyebrow">SUPPORT CHANNEL</p><h2 id="support-title">Keep the signal clear.</h2></div>
+        <div><p>For invitation problems, access questions, or deployment support, contact the Cinderfang Studio operator.</p><a class="support-email" href="mailto:cinderfangstudio@outlook.com">cinderfangstudio@outlook.com <span aria-hidden="true">↗</span></a></div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><span>© <span id="year">2026</span> CINDERFANG STUDIO</span><span>INTERNAL DEVELOPMENT PORTAL / ACCESS CONTROLLED</span></footer>
+  </div>
+  <script src="config.js"></script>
+  <script src="portal.js"></script>
+</body>
+</html>
